@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+/* <!---------Navigation CSS---------> */
+.nav-buttons{
+    display: inline;
+    list-style-type: none;
+    font-size: 12px;
+    margin: 15px;
+}
+
+
+/* <!---------Body CSS---------> */
+#main{
+    background-color: antiquewhite;
+}
+
+#logo{
+    margin-top:175px;
+}
+
+#search-bar{
+    height: 45px;
+    border-radius: 50px;
+    border: solid 1px rgb(172, 172, 172);
+    margin: 25px 0px 25px 0px;
+    width: 525px;
+}
+
+.form-button{
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    background: rgb(238, 238, 238);
+    color: rgb(94, 94, 94);
+}
+/* <!---------Footer CSS---------> */
