@@ -8,33 +8,44 @@
     <body>
 
 <!---------Navigation START--------->
-        <nav>
-            <ul>
-                <li class="nav-buttons">About</li>
-                <li class="nav-buttons">Store</li>
-                <li class="nav-buttons">Gmail</li>
-                <li class="nav-buttons">Images</li>
-            </ul>
+        <nav id="nav">
+            <span class="button-left">
+                <a class="nav-buttons">About</a>
+                <a class="nav-buttons">Store</a>
+            </span>
+            <span class="button-right">
+                <a class="nav-buttons">Gmail</a>
+                <a class="nav-buttons">Images</a>
+                <a id="signin" class="nav-buttons"><b>Sign in</b></a>
+            </span>
         </nav>
 <!---------Navigation END--------->
 
-<!---------Body START--------->
+<!---------Main START--------->
         <div id="main">
-            <center>
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             <br>
-            <form>
+            <form id="form">
                 <input type="text" id="search-bar" placeholder="search icon goes here">
                 <br>
-                <button class="form-button" type="submit">Google Search</button>
-                <button class="form-button" type="submit">I'm Feeling Lucky</button>
+                <button class="form-buttons" type="submit">Google Search</button>
+                <button class="form-buttons" type="submit">I'm Feeling Lucky</button>
             </form>
-            </center>
         </div>
-<!---------Body END--------->
+<!---------Main END--------->
 
 <!---------fOOTER START--------->
-        <footer></footer>
+        <div id="footer">
+            <span class="button-left">
+                <a class="footer-buttons">Advertising</a>
+                <a class="footer-buttons">Business</a>
+                <a class="footer-buttons">How Search Works</a>
+            </span>
+            <span class="button-right">
+                <a class="footer-buttons">Privacy</a>
+                <a class="footer-buttons">Terms</a>
+            </span>
+        </div>
 <!---------fOOTER END--------->
 
     </body>

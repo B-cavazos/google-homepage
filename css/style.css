@@ -1,39 +1,101 @@
 *{
     margin: 0px;
-}
-/* <!---------Navigation CSS---------> */
-.nav-buttons{
-    display: inline;
-    list-style-type: none;
-    font-size: 12px;
-    margin: 15px;
+    font-family: Arial;
 }
 
+/* <!---------Pagewide CSS---------> */
+
+body{
+}
+
+.button-left{
+    float: left;
+}
+
+.button-right{
+    float: right;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* <!---------Navigation CSS---------> */
+
+#nav{
+    background-color: khaki;
+    width: 100%;
+}
+
+.nav-buttons{
+    display: inline block;
+    font-size: 12px;
+    background-color: indianred;
+    color: rgb(94, 94, 94);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#signin{
+    background-color: rgb(56, 146, 248);
+    color: white;
+    border-radius: 2px;
+    
+
+}
 
 /* <!---------Body CSS---------> */
+
 #main{
-    background-color: antiquewhite;
+    text-align: center;
+    height: 100%;
+}
+
+#form{
+
 }
 
 #logo{
-    margin-top:175px;
+    margin-top:200px;
 }
 
 #search-bar{
     height: 45px;
     border-radius: 50px;
-    border: solid 1px rgb(172, 172, 172);
+    border: solid 1px rgb(204, 204, 204);
     margin: 25px 0px 25px 0px;
-    width: 525px;
+    width: 575px;
 }
 
-.form-button{
+.form-buttons{
     height: 40px;
     font-size: 14px;
     border-radius: 5px;
     border: none;
     padding: 10px 15px;
+    margin-bottom: 100px;
     background: rgb(238, 238, 238);
     color: rgb(94, 94, 94);
 }
+
+.form-buttons:hover{
+    background: rgb(236, 236, 236);
+    border: solid 1px rgb(204, 204, 204);
+}
 /* <!---------Footer CSS---------> */
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(238, 238, 238);
+    border-top: solid 1px rgb(204, 204, 204);
+    }
+
+.footer-buttons{
+    display: inline;
+    font-size: 15px;;
+    color: rgb(94, 94, 94);
+    padding: 20px;
+}
